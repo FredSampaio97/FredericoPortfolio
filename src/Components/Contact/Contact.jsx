@@ -55,7 +55,7 @@ const Contact = () => {
                     </div>
                     <div className="contact-detail">
                         <img src={call_icon} alt="" /> 
-                        <p>916889915</p>
+                        <p>+351 916889915</p>
                     </div>
                     <div className="contact-detail">
                         <img src={location_icon} alt="" /> 
