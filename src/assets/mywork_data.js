@@ -3,6 +3,7 @@ import project2_img from '../assets/phpwebsitehome.png'
 import project3_img from '../assets/phpwebsitedestaques.png'
 import project4_img from '../assets/phpwebsitefooter.png'
 import project5_img from '../assets/robofriends.png'
+import project6_img from '../assets/cryptoapp.png'
 // import project6_img from '../assets/project_6.svg'
 
 const mywork_data = [
@@ -21,8 +22,8 @@ const mywork_data = [
     {
         w_no:3,
         w_name:"Web design",
-        w_img:project3_img,
-        w_url: ""
+        w_img:project6_img,
+        w_url: "https://cryptoapp-2e54.onrender.com/"
     },
     {
         w_no:4,
