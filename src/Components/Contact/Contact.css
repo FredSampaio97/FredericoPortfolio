@@ -121,7 +121,7 @@
 @media(max-width: 768px){
     .contact{
         gap: 50px;
-        margin: 50pc 70px;
+        margin: 50px 70px;
         align-items: start;
     }
 
@@ -156,7 +156,11 @@
         width: 25px;
     }
 
-    .contact-right label{
+    .contact-right{
+        display: none;
+    }
+
+    /* .contact-right label{
         font-size: 20px;
     }
 
@@ -168,10 +172,29 @@
     .contact-right textarea{
         width: 95%;
         font-size: 20px;
-    }
+    } */
 
     .contact-submit{
         font-size: 20px;
         padding: 15px 40px;
+    }
+}
+
+@media(max-width: 450px){
+    .contact-title h1{
+        font-size: 40px;
+
+    }
+    
+    .contact-left h1{
+        font-size: 35px;
+    }
+
+    .contact-left p{
+        font-size: 16px;
+        line-height: 28px;
+    }
+    .contact-detail{
+        gap: 10px;
     }
 }

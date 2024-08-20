@@ -84,6 +84,17 @@
     transition: 0.3s;
 }
 
+.footer-top-left h1{
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.footer-top-left p{
+    font-size: 18px;
+    max-width: 400px;
+    line-height: 22px;
+}
+
 @media(max-width: 768px){
     .footer{
         margin: 50px 70px;
@@ -92,6 +103,9 @@
     .footer-top{
         flex-direction: column;
         gap: 50px;
+    }
+    .footer-top-right{
+        display: none;
     }
 
     
@@ -104,4 +118,16 @@
     .footer-email-input{
         width: 40%;
     }
+    .footer-bottom{
+        justify-content: space-between;
+        font-size: 13px;
+    }
+    .footer-bottom-right{
+        gap: 30px;
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width: 768px){
+    
 }

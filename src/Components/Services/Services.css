@@ -97,7 +97,7 @@
 
     .services-format{
         gap: 20px;
-        padding: 32px;
+        padding: 30px;
     }
 
     .services-format h2{
@@ -116,6 +116,24 @@
 
     .services-container{
         grid-template-columns: 1fr 1fr;
+        gap: 30px;
+    }
+}
+
+@media(max-width: 450px){
+    .services-title h1{
+        font-size: 40px;
+    }
+    .services-format h2{
+        font-size: 22px;
+    }
+    .services-format p{
+        font-size: 14px;
+        line-height: 20px;
+        max-width: 300px;
+    }
+    .services-container{
+        grid-template-columns: 1fr;
         gap: 30px;
     }
 }

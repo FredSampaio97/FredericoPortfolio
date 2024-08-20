@@ -102,3 +102,18 @@
 
     
 }
+
+@media(max-width: 450px){
+    .mywork-title h1{
+        font-size: 40px;
+        font-weight: 600;
+    }
+    .mywork{
+        gap: 50px;
+        margin: 30px 50px;
+        align-items: start;
+    }
+    .mywork-showmore{
+       display: none;
+    }
+}
