@@ -94,6 +94,13 @@
     max-width: 600px;
     line-height: 22px;
 }
+.footer-top-right{
+    display: none;
+}
+
+@media(max-width: 992px){
+    
+}
 
 @media(max-width: 768px){
     .footer{

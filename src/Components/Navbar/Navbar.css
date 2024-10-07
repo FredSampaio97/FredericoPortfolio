@@ -67,11 +67,16 @@
     display: none;
 }
 
-@media(max-width: 768px){
+@media(max-width: 1500px){
     .navbar{
-        margin: 20px 50px;
+    margin: 20px 50px;
     }
+    .nav-menu{
+        gap: 40px;
+    }
+}
 
+@media(max-width: 1200px){
     .nav-connect{
         display: none;
     }
@@ -110,5 +115,6 @@
         flex-direction: row;
         gap: 20px;
     }
-
 }
+
+
